@@ -11,7 +11,7 @@
 
 ## Instruksi
 
-Untuk mengerjakan soal latihan ini, silakan buka file [exam1.dart](./exam1.dart).
+Untuk mengerjakan soal latExamihan ini, silakan buka file [exam1.dart](./exam1.dart).
 
 ### TODO 1
 
