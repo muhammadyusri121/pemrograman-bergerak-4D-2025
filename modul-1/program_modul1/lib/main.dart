@@ -64,13 +64,13 @@ class HomePage extends StatelessWidget {
 
                 // ini adalah bagian yang menampilkan hot places
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween, // untuk mengatur jarak antara judul dan tombol
                   children: [
                     const Text(
                       'Hot Places',
                       style: TextStyle(
                         fontSize: 20,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.bold, // untuk mengatur ukuran dan ketebalan teks
                       ),
                     ),
                     TextButton(
@@ -171,7 +171,12 @@ class HomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 24),
 
-                // Best Hotels section with vertical scrolling
+
+
+
+
+                // ini adalah bagian yang menampilkan best hotels
+
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -196,7 +201,7 @@ class HomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 ListView.builder(
-                  physics: const NeverScrollableScrollPhysics(),
+                  physics: const NeverScrollableScrollPhysics(), // ini adalah untuk menonaktifkan scroll pada list view
                   shrinkWrap: true,
                   itemCount: 10,
                   itemBuilder: (context, index) {

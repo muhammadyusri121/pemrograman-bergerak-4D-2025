@@ -27,7 +27,7 @@ class DetailPage extends StatelessWidget {
                   IconButton(
                     icon: const Icon(Icons.arrow_back),
                     onPressed: () {
-                      Navigator.pop(context);
+                      Navigator.pop(context); // navigator pop adalah untuk kembali ke halaman sebelumnya
                     },
                   ),
                   const SizedBox(width: 8),
@@ -64,9 +64,8 @@ class DetailPage extends StatelessWidget {
                   fontSize: 13,
                   color: Colors.black87,
                   height: 1.5,
-                  
                 ),
-              textAlign: TextAlign.justify,
+                textAlign: TextAlign.justify,
               ),
             ],
           ),
@@ -75,4 +74,3 @@ class DetailPage extends StatelessWidget {
     );
   }
 }
- 
